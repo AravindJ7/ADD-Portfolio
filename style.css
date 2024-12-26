@@ -20,6 +20,7 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: .3s;
 }
 .header a{
     font-size: 56px;
@@ -72,6 +73,10 @@ body{
 }
 .Home{
     padding: 0 10%;
+    background: url('newjj.jpeg') no-repeat;
+    background-size: auto;
+    background-position: 85ch;
+    background-position-y: bottom;
     height: 100vh;
     align-items: center;
     display: flex;
@@ -251,29 +256,6 @@ color: #00abf0;
 .home-sci a:hover::before{
 width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes showRight {
     100%{
@@ -596,8 +578,25 @@ width: 100%;
     background: #49b3ff;
     border: .2rem solid #49b3ff;
     border-radius: .6rem;
+    z-index: 1;
+    overflow: hidden;
+}
+.footer-iconTop a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: .5s;
+}
+.footer-iconTop a:hover::before{
+    width: 100%;
 }
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: #2772fc;
 }
+ 
