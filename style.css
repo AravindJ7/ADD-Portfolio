@@ -35,7 +35,6 @@ body{
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: .8s;
-   
 
 }
 .logo{
@@ -65,7 +64,7 @@ body{
     margin-left: 35px;
     transition: 0.5s;
 }
-.navbar a:hover{ 
+.navbar a:hover{
         color: #00abf0;
 }
 .navbar a.active{
@@ -425,7 +424,7 @@ span{
     margin: 0 0 1.5rem;
 }
 .skills-box .skills-content{
-   
+
     position: relative;
     border: .2rem solid #00abf0;
     border-radius: .6rem;
@@ -466,7 +465,7 @@ span{
     margin: 1rem 0;
 }
 .skills-content .progress .bar span{
- display: block;   
+ display: block;
  height: 100%;
  border-radius: .3rem;
  background: #00abf0;
@@ -599,4 +598,3 @@ width: 100%;
     font-size: 2.4rem;
     color: #2772fc;
 }
- 
